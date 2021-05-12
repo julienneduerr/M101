@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    ;
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px ;
+
+}
+
+header img {
+    width: 15%;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+
+    margin: 20px 0 40px;
+    padding: 0.5% 20%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    margin: 50px 50px;
+
+}
+header nav{
+    width: 100%;
+}
+
+header nav ul a:hover {
+    text-decoration: underline
+}
+main{
+}
+
+
+#big img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#small {
+    height: 227px;
+
+
+}
+
+#bracelet {
+
+    width: 33%;
+    margin: 20px 0px 0 10px;
+    background-image: url(./bilder/index/bracelet_bild.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+#necklace {
+
+    width: 33%;
+    margin:20px 10px 0 10px;
+    background-image: url(./bilder/index/necklace_bild.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+#earrings {
+
+    width: 33%;
+    margin: 20px 10px 0 0px;
+    background-image: url(./bilder/index/earrings_bild.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+#small p {
+    background-color: rgba(255, 255, 255, 0.548);
+    display: inline;
+    padding: 30px 60px 30px 60px;
+
+}
+
+#untertitel {
+    text-align: center;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+#small {
+    display: flex;
+    justify-content: space-between;
+}
+
+.earrings {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.earrings div {
+    width: 20%;
+    height: 350px;
+    margin: 20px;
+
+}
+
+#eins {
+    background-image: url(./bilder/bracelet/eins_1.jpg);
+    background-size: cover;
+}
+
+#eins:hover {
+    background-image: url(./bilder/bracelet/eins_2.jpg);
+    background-size: cover;
+}
+
+#zwei {
+    background-image: url(./bilder/bracelet/zwei_1.jpg);
+    background-size: cover;
+}
+
+#zwei:hover {
+    background-image: url(./bilder/bracelet/zwei_2.jpg);
+    background-size: cover;
+}
+
+#drei {
+    background-image: url(./bilder/bracelet/drei_1.jpg);
+    background-size: cover;
+}
+
+#drei:hover {
+    background-image: url(./bilder/bracelet/drei_2.jpg);
+    background-size: cover;
+}
+
+#vier {
+    background-image: url(./bilder/bracelet/vier_1.jpg);
+    background-size: cover;
+}
+
+#vier:hover {
+    background-image: url(./bilder/bracelet/vier_2.jpg);
+    background-size: cover;
+}
+
+#funf {
+    background-image: url(./bilder/bracelet/funf_1.jpg);
+    background-size: cover;
+}
+
+#funf:hover {
+    background-image: url(./bilder/bracelet/funf_2.jpg);
+    background-size: cover;
+}
+
+#sechs {
+    background-image: url(./bilder/bracelet/eins_1.jpg);
+    background-size: cover;
+}
+
+#sechs:hover {
+    background-image: url(./bilder/bracelet/eins_2.jpg);
+    background-size: cover;
+}
+
+#sieben {
+    background-image: url(./bilder/bracelet/zwei_1.jpg);
+    background-size: cover;
+}
+
+#sieben:hover {
+    background-image: url(./bilder/bracelet/zwei_2.jpg);
+    background-size: cover;
+}
+
+#acht {
+    background-image: url(./bilder/bracelet/drei_1.jpg);
+    background-size: cover;
+}
+
+#acht:hover {
+    background-image: url(./bilder/bracelet/drei_2.jpg);
+    background-size: cover;
+}
+
+#neun {
+    background-image: url(./bilder/bracelet/vier_1.jpg);
+    background-size: cover;
+}
+
+#neun:hover {
+    background-image: url(./bilder/bracelet/vier_2.jpg);
+    background-size: cover;
+}
+
+#zehn {
+    background-image: url(./bilder/bracelet/funf_1.jpg);
+    background-size: cover;
+}
+
+#zehn:hover {
+    background-image: url(./bilder/bracelet/funf_2.jpg);
+    background-size: cover;
+}
+
+#e_untertitel {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.preis {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#elf {
+    background-image: url(./bilder//necklace/11_1.jpg);
+    background-size: cover;
+}
+
+#elf:hover {
+    background-image: url(./bilder/necklace/11_2.jpg);
+    background-size: cover;
+}
+
+#zwolf {
+    background-image: url(./bilder/necklace/12_1.jpg);
+    background-size: cover;
+}
+
+#zwolf:hover {
+    background-image: url(./bilder/necklace/12_2.jpg);
+    background-size: cover;
+}
+
+#dreizehn {
+    background-image: url(./bilder/necklace/13_1.jpg);
+    background-size: cover;
+}
+
+#dreizehn:hover {
+    background-image: url(./bilder/necklace/13_2.jpg);
+    background-size: cover;
+}
+
+#vierzehn {
+    background-image: url(./bilder/necklace/14_1.jpg);
+    background-size: cover;
+}
+
+#vierzehn:hover {
+    background-image: url(./bilder/necklace/14_2.jpg);
+    background-size: cover;
+}
+
+#funfzehn {
+    background-image: url(./bilder/necklace/15_1.jpg);
+    ;
+    background-size: cover;
+}
+
+#funfzehn:hover {
+    background-image: url(./bilder/necklace/15_2.jpg);
+    background-size: cover;
+}
+
+
+#sechzehn {
+    background-image: url(./bilder//necklace/11_1.jpg);
+    background-size: cover;
+}
+
+#sechzehn:hover {
+    background-image: url(./bilder/necklace/11_2.jpg);
+    background-size: cover;
+}
+
+#siebzehn {
+    background-image: url(./bilder/necklace/12_1.jpg);
+    background-size: cover;
+}
+
+#siebzehn:hover {
+    background-image: url(./bilder/necklace/12_2.jpg);
+    background-size: cover;
+}
+
+#achtzehn {
+    background-image: url(./bilder/necklace/13_1.jpg);
+    background-size: cover;
+}
+
+#achtzehn:hover {
+    background-image: url(./bilder/necklace/13_2.jpg);
+    background-size: cover;
+}
+
+#neunzehn {
+    background-image: url(./bilder/necklace/14_1.jpg);
+    background-size: cover;
+}
+
+#neunzehn:hover {
+    background-image: url(./bilder/necklace/14_2.jpg);
+    background-size: cover;
+}
+
+#zwanzig {
+    background-image: url(./bilder/necklace/15_1.jpg);
+    background-size: cover;
+}
+
+#zwanzig:hover {
+    background-image: url(./bilder/necklace/15_2.jpg);
+    background-size: cover;
+}
+
+footer div {
+    margin-top: 40px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+.no{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nobild{
+    width: 20%;
+    height: 350px;
+    margin: 20px;
+    background-color: rgb(196, 152, 152);
+}
